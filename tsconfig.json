@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@util/*": [
+        "util/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@controller/*": [
+        "controller/*"
+      ],
+      "@src/*": [
+        "./*"
+      ]
+    },
+    "target": "ES2016",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "noUncheckedIndexedAccess": true,
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": [
+    "**/*.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.cjs",
+    "**/*.mjs"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "jest.config.js",
+    "tsconfig.tsbuildinfo"
+  ]
+}

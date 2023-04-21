@@ -1,0 +1,59 @@
+{
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.fontSize": 20,
+	"editor.wordWrap": "on",
+	"npm.packageManager": "pnpm",
+	"eslint.packageManager": "pnpm",
+	"eslint.format.enable": true,
+	"editor.formatOnPaste": false,
+	"editor.formatOnType": false,
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"files.autoSave": "onFocusChange",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.defaultFormatter": "numso.prettier-standard-vscode",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "numso.prettier-standard-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "numso.prettier-standard-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "numso.prettier-standard-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "numso.prettier-standard-vscode"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"diffEditor.wordWrap": "on",
+	"emmet.triggerExpansionOnTab": true,
+	"errorLens.onSave": true,
+	"workbench.startupEditor": "none",
+	"svg.completion.showAdvanced": true,
+	"svg.completion.showDeprecated": true,
+	"editor.insertSpaces": true,
+	"editor.tabSize": 2,
+	"files.associations": {
+		"*.css": "css"
+	},
+	"eslint.run": "onSave",
+	"editor.guides.bracketPairs": true,
+	"editor.cursorBlinking": "expand",
+	"editor.linkedEditing": true,
+	"editor.stickyScroll.enabled": true,
+	"editor.cursorSmoothCaretAnimation": "on"
+}

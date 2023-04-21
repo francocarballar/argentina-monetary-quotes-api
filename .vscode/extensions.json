@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "mgmcdermott.vscode-language-babel",
+    "naumovs.color-highlight",
+    "mikestead.dotenv",
+    "EditorConfig.EditorConfig",
+    "usernamehw.errorlens",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "kisstkondoros.vscode-gutter-preview",
+    "moalamri.inline-fold",
+    "PKief.material-icon-theme",
+    "christian-kohler.path-intellisense",
+    "csstools.postcss",
+    "jock.svg",
+    "bradlc.vscode-tailwindcss",
+    "oderwat.indent-rainbow",
+    "standard.vscode-standard",
+    "numso.prettier-standard-vscode"
+  ]
+}
