@@ -8,7 +8,7 @@ This API allows you to obtain real-time quotes for different currencies and fina
 
 ## Endpoints
 
-Base URL: `https://github.com/francocarballar/`
+Base URL: `https://argentina-monetary-quotes-api.up.railway.app`
 
 | Method | Endpoint                       | Description                                  |
 | ------ | ------------------------------ | -------------------------------------------- |
@@ -57,10 +57,10 @@ Base URL: `https://github.com/francocarballar/`
 | GET    | /api/real/chaco                | New Chaco Bank BRL quote                     |
 | GET    | /api/bcra/reservas             | BCRA reserves in USD                         |
 | GET    | /api/bcra/circulante           | Total amount of pesos in circulation         |
-| GET    | /api/evolucion/dolaroficial    | Annualized monthly evolution of official USD |
-| GET    | /api/evolucion/dolarblue       | Annualized monthly evolution of blue USD     |
-| GET    | /api/evolucion/realoficial     | Annualized monthly evolution of official BRL |
-| GET    | /api/evolucion/eurooficial     | Annualized monthly evolution of official EUR |
+| GET    | /api/evolucion/dolar/oficial   | Annualized monthly evolution of official USD |
+| GET    | /api/evolucion/dolar/blue      | Annualized monthly evolution of blue USD     |
+| GET    | /api/evolucion/real/oficial    | Annualized monthly evolution of official BRL |
+| GET    | /api/evolucion/euro/oficial    | Annualized monthly evolution of official EUR |
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/22004185-1fbecbc9-3258-4d41-bb3e-a9fddc57408a?action=collection%2Ffork&collection-url=entityId%3D22004185-1fbecbc9-3258-4d41-bb3e-a9fddc57408a%26entityType%3Dcollection%26workspaceId%3Dacd253cd-93e0-43b2-8df5-ad85bc2cd82d)
 

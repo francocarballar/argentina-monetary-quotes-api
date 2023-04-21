@@ -8,7 +8,7 @@ Esta API permite obtener las cotizaciones de diferentes monedas y datos financie
 
 ## Endpoints
 
-URL base: `https://github.com/francocarballar/`
+URL base: `https://argentina-monetary-quotes-api.up.railway.app`
 
 | Método | Endpoint                       | Descripción                                            |
 | ------ | ------------------------------ | ------------------------------------------------------ |
@@ -57,10 +57,10 @@ URL base: `https://github.com/francocarballar/`
 | GET    | /api/real/chaco                | Cotización del Real del Nuevo Banco del Chaco          |
 | GET    | /api/bcra/reservas             | Reservas del BCRA en dólares                           |
 | GET    | /api/bcra/circulante           | Total de pesos en circulación                          |
-| GET    | /api/evolucion/dolaroficial    | Evolución mensual anualizada del dólar oficial         |
-| GET    | /api/evolucion/dolarblue       | Evolución mensual anualizada del dólar blue            |
-| GET    | /api/evolucion/realoficial     | Evolución mensual anualizada del Real oficial          |
-| GET    | /api/evolucion/eurooficial     | Evolución mensual anualizada del Euro oficial          |
+| GET    | /api/evolucion/dolar/oficial   | Evolución mensual anualizada del dólar oficial         |
+| GET    | /api/evolucion/dolar/blue      | Evolución mensual anualizada del dólar blue            |
+| GET    | /api/evolucion/real/oficial    | Evolución mensual anualizada del Real oficial          |
+| GET    | /api/evolucion/euro/oficial    | Evolución mensual anualizada del Euro oficial          |
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/22004185-1fbecbc9-3258-4d41-bb3e-a9fddc57408a?action=collection%2Ffork&collection-url=entityId%3D22004185-1fbecbc9-3258-4d41-bb3e-a9fddc57408a%26entityType%3Dcollection%26workspaceId%3Dacd253cd-93e0-43b2-8df5-ad85bc2cd82d)
 
